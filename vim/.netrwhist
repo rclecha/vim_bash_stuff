@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/rlecha/workspace/CRD/theia/android-mvvm-example/android-mvvm-example/MVVM-Example/app/build'
+let g:netrw_dirhist_2='/Users/rlecha/workspace/CRD/theia/groovy-android-gradle-plugin/build'
+let g:netrw_dirhist_3='/Users/rlecha/workspace/fooz/test'
+let g:netrw_dirhist_4='/Users/rlecha/.minikube/config'
+let g:netrw_dirhist_5='/Users/rlecha/workspace/crd/infra/docker/jenkins/RSD_Embedded_Services_API_slave'
