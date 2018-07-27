@@ -1,0 +1,21 @@
+#*VT100.translations: #override Meta <KeyPress> V: insert-selection(PRIMARY, CUTBUFFER0) \n
+XTerm*selectToClipboard: true
+XTerm*VT100.translations: #override \n \
+  ~Meta Shift Ctrl <Key>V: insert-selection(CLIPBOARD) \n \
+  ~Meta Shift Ctrl <Key>C: copy-selection(CLIPBOARD) \n \
+  ~Meta Shift Ctrl <Key>N: spawn-new-terminal()
+
+#Xterm*saveLines: 4096
+*foreground: rgb:b2/b2/b2
+*background: rgb:08/08/08
+XTerm*.LoginShell: True
+
+#*geometry: 132x43
+*termName: xterm-256color
+#*faceName: Liberation Mono:size=10:antialias=true
+*faceName: Liberation Mono:size=9:antialias=false:Bold
+
+# light skyblue
+*color4: rgb:87/ce/fa
+*color12: rgb:87/ce/fa
+
